@@ -21,14 +21,9 @@ const eqArrays = function(array1,array2) {
   }
 };
 
+const assertArraysEqual = function(array1,array2) {
+  assertEqual(eqArrays(array1,array2),true);
+}
 
-// test case
-
-console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
-console.log(eqArrays([1, 2, 3], [3, 2, 1])); // => false
-
-console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
-console.log(eqArrays(["1", "2", "3"], ["1", "2", 3])); // => false
-
-// test case
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertArraysEqual([1, 2, 3, 4],[1, 2, 3, 4]);
+assertArraysEqual([1, 2, 3, 4],[1, 2, 2, 4]);
