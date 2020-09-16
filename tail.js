@@ -12,7 +12,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// test code
+// test case 
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.length, 2);

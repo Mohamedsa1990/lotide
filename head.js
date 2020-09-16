@@ -18,4 +18,32 @@ const assertEqual = function(actual, expected) {
 
 assertEqual(head([5,6,7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]), "Hello");
+assertEqual(head([]), "Hello")
+
+
+
+
+const args = process.argv;
+let arry = args.slice(2);
+
+let reversedArray = [];
+const reverse = function(arry) {
+  for (let x = 0; x < arry.length; x++) {
+    // let newString = "";
+    reversedArray.push(reverseWord(arry[x]));
+  }
+
+  for (let x = 0; x < arry.length; x++) {
+    console.log(arry[i]);
+  }
+};
+  
+const reverseWord = function(str){
+  let newString = '';
+  for (var i = str.length - 1; i >= 0; i--) { 
+    newString += str[i]; 
+  }
+
+  return newString;
+}
+reverse (arry);
