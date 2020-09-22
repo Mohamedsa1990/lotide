@@ -12,12 +12,12 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @Mohamedsa1990
+`npm install mohammedsnpm
 /lotide`
 
 **Require it:**
 
-`const _ = require('@Mohamedsa1990
+`const _ = require('mohammedsnpm
 /lotide');`
 
 **Call it:**
@@ -44,4 +44,4 @@ The following functions are currently implemented:
 * `letterPositions(...)`:gives the letter position in a sentance
 * `map(...)`:map the array elements
 * `takeUntil(...)`:take the array elements until a specified condition
-* `without(...)`: take array element without specified element
+* `without(...)`: take array element without specified
