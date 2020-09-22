@@ -23,7 +23,7 @@ const findKeyByValue = function(inputObject, value) {
   }
 };
 
-
+module.exports = findKeyByValue;
 
 // test cases
 
